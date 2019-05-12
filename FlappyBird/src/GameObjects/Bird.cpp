@@ -1,7 +1,7 @@
 #include "Bird.h"
 
 
-Bird::Bird(std::shared_ptr<Audio> flapSound) : flapSound(flapSound), maxGravity(13.0f), gravityAcc(1.8f),
+Bird::Bird(const std::shared_ptr<Audio>& flapSound) : flapSound(flapSound), maxGravity(13.0f), gravityAcc(1.8f),
 												maxAngle(40.0f), angleAcc(2.5f), 
 												dir(DOWN), gravity(4.0f), angle(0.0f)
 {

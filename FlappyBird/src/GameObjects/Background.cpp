@@ -74,8 +74,8 @@ void Background::update()
 	// Move layers with different speeds
 	for (unsigned int i = 0; i < layers.size(); ++i)
 	{
-		layers[i].first.move(-speed / 1.5f * (float)(i + 1), 0.0f);
-		layers[i].second.move(-speed / 1.5f * (float)(i + 1), 0.0f);
+		layers[i].first.move(-speed / 2.0f * (float)(i + 1), 0.0f);
+		layers[i].second.move(-speed / 2.0f * (float)(i + 1), 0.0f);
 
 		// Wrap layers in background
 		// Check for first sprite

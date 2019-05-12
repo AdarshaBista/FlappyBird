@@ -22,7 +22,7 @@ private:
 	std::shared_ptr<Audio> scoreSound;
 
 public:
-	Score(std::shared_ptr<Bird> bird, std::array<std::shared_ptr<Pipe>, PIPE_NUM> pipes, std::shared_ptr<Audio> scoreSound);
+	Score(const std::shared_ptr<Bird>& bird, const std::array<std::shared_ptr<Pipe>, PIPE_NUM>& pipes, const std::shared_ptr<Audio>& scoreSound);
 
 	virtual void handleEvents(const sf::Event& event) override;
 	virtual void update() override;

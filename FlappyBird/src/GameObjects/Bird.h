@@ -46,7 +46,7 @@ private:
 	void animate();
 
 public:
-	Bird(std::shared_ptr<Audio> flapSound);
+	Bird(const std::shared_ptr<Audio>& flapSound);
 	void setOnCollisionCallBack(std::function<void()> onCollisionCallback);
 	void checkCollision(Pipe& pipe);
 	sf::Vector2f getPosition();

@@ -26,7 +26,7 @@ private:
 	void animate(const sf::RenderWindow& window);
 
 public:
-	IconButton(const std::string& iconPath, const sf::Vector2f& pos, std::shared_ptr<Audio> clickSound);
+	IconButton(const std::string& iconPath, const sf::Vector2f& pos, const std::shared_ptr<Audio>& clickSound);
 	void setCallback(std::function<void()> onPressedCallback);
 
 	virtual void handleEvents(const sf::RenderWindow& window, const sf::Event& event) override;

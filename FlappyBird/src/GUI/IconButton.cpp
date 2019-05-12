@@ -1,7 +1,7 @@
 #include "IconButton.h"
 
 
-IconButton::IconButton(const std::string& iconPath, const sf::Vector2f& pos, std::shared_ptr<Audio> clickSound)
+IconButton::IconButton(const std::string& iconPath, const sf::Vector2f& pos, const std::shared_ptr<Audio>& clickSound)
 	: onPressed([]() {}), clickSound(clickSound)
 {
 	// Load and set icon texture
