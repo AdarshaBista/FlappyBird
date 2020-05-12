@@ -6,10 +6,6 @@ Flappy Bird clone with added elements.
 
 - [SFML](https://www.sfml-dev.org/)
 
-## Screenshots
+## Demo
 
-<img height="480px" src="Screenshots/1.png">
-<img height="480px" src="Screenshots/2.png">
-<img height="480px" src="Screenshots/3.png">
-
-
+<img height="480px" src="Demo/demo.gif">
